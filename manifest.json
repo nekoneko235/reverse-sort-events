@@ -1,0 +1,15 @@
+{
+    "name": "TOPSIC - Sort event categories",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "受験履歴のイベント区分プルダウンメニューで、最近のイベントを上から順に表示します",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/examinations/results",
+                "https://*/examinations/results?*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
