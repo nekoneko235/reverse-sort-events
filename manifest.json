@@ -2,7 +2,10 @@
     "name": "TOPSIC - Sort event categories",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description": "受験履歴のイベント区分プルダウンメニューで、最近のイベントを上から順に表示します",
+    "description": "受験履歴のイベント区分で、最近のイベントを上から順に表示します",
+    "icons": {
+        "32": "sort-za.png"
+    },
     "content_scripts": [
         {
             "matches": [
